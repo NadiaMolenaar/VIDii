@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Nadia Molenaar
 
 #### Je startniveau:
-Mijn startniveau is: voornamelijk blauw, misschien een klein beetje rood
+Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting rood, omdat er al veel lessen html/css in het verleden geweest zijn
 
 
 
