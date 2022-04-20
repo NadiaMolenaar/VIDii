@@ -161,7 +161,7 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
+1. Pinterest: hier heb ik inspiratie opgedaan voor mijn 'tijdlijn'.
 2. bron 2
 3. ...
 
