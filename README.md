@@ -25,10 +25,10 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
 # Je plan
 
 <details open>
-  <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
+  <summary>Code vind ik altijd even wennen, dus het zal voornamelijk lastig worden een overlay te maken en/of afbeeldingen op de juiste wijze weer te geven in het silhouet.</summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/IMG_5518.jpg" width="375px" alt="eerste schets">
 
 
   ### Je ambitie: 
