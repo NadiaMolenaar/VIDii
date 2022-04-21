@@ -175,8 +175,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
     Afbeelding
     ...
   
-  </details>
-  
 3. ...
 
 </details>
