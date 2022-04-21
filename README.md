@@ -163,7 +163,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. Pinterest: hier heb ik inspiratie opgedaan voor mijn 'tijdlijn'.
 2. Afbeeldingen
-    Afbeelding 1928:
+    <p>Afbeelding 1928:
     https://www.vhv.rs/viewpic/hbRmx_original-mickey-mouse-1928-hd-png-download/.
 
     Afbeelding 1930:
@@ -172,9 +172,10 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
     Afbeelding 1935 - Band Concert:
     https://www.jiangekj.xyz/ProductDetail.aspx?iid=20412703&pr=41.88.
   
-    Afbeelding
-    ...
-  
+    Afbeelding 1939 - Surprise Party
+    https://disneytoonland.tumblr.com/post/28606236309/mickeys-surprise-party-1939
+  </p>
+      
 3. ...
 
 </details>
