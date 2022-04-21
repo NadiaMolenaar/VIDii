@@ -163,17 +163,30 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. Pinterest: hier heb ik inspiratie opgedaan voor mijn 'tijdlijn'.
 2. Afbeeldingen
-    <p>Afbeelding 1928:
-    https://www.vhv.rs/viewpic/hbRmx_original-mickey-mouse-1928-hd-png-download/.
-
-    Afbeelding 1930:
-    http://ramapithblog.blogspot.com/2012/06/mouse-interrupted.html.
-  
-    Afbeelding 1935 - Band Concert:
-    https://www.jiangekj.xyz/ProductDetail.aspx?iid=20412703&pr=41.88.
-  
-    Afbeelding 1939 - Surprise Party
-    https://disneytoonland.tumblr.com/post/28606236309/mickeys-surprise-party-1939
+    <p>
+      Afbeelding 1928:
+      https://www.vhv.rs/viewpic/hbRmx_original-mickey-mouse-1928-hd-png-download/.
+      
+      Afbeelding 1930:
+      http://ramapithblog.blogspot.com/2012/06/mouse-interrupted.html.
+      
+      Afbeelding 1935 - Band Concert
+      https://www.jiangekj.xyz/ProductDetail.aspx?iid=20412703&pr=41.88.
+      
+      Afbeelding 1939 - Surprise Party
+      https://disneytoonland.tumblr.com/post/28606236309/mickeys-surprise-party-1939
+      
+      Afbeelding 1952 - Pluto's Birthday
+      https://d.newsweek.com/en/full/1546612/mickey-mouse-plutos-party.jpg?w=790&f=84de7171ddaa03865c6c6aca360c87df
+      
+      Afbeelding 1999 - Works
+      https://mubi.com/nl/films/mickey-mouse-works
+      
+      Afbeelding 2004 - Twice Upon A Christmas
+      https://m.imdb.com/title/tt0424279/mediaviewer/rm2127650048/
+      
+      Afbeelding 2018
+      https://kidscreen.com/2018/03/05/disney-celebrates-90-years-of-mickey-mouse/
   </p>
       
 3. Evolutie van Mickey Mouse in video: https://www.youtube.com/watch?v=k5yLBt2EfLc
