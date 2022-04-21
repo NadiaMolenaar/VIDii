@@ -176,6 +176,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
     https://disneytoonland.tumblr.com/post/28606236309/mickeys-surprise-party-1939
   </p>
       
-3. ...
+3. Evolutie van Mickey Mouse in video: https://www.youtube.com/watch?v=k5yLBt2EfLc
 
 </details>
