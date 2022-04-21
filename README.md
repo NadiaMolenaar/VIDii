@@ -163,7 +163,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. Pinterest: hier heb ik inspiratie opgedaan voor mijn 'tijdlijn'.
 2. Afbeeldingen
-  <details>
     Afbeelding 1928:
     https://www.vhv.rs/viewpic/hbRmx_original-mickey-mouse-1928-hd-png-download/.
 
@@ -175,6 +174,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
   
     Afbeelding
     ...
+  
   </details>
   
 3. ...
