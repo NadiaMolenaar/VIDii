@@ -164,18 +164,19 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 1. Pinterest: hier heb ik inspiratie opgedaan voor mijn 'tijdlijn'.
 2. Afbeeldingen
   <details>
-  ### Afbeelding 1928
-  ...
-
-  #### Afbeelding 1930
-  http://ramapithblog.blogspot.com/2012/06/mouse-interrupted.html
-
-  ### Afbeelding 1935 - Band Concert
-  https://www.jiangekj.xyz/ProductDetail.aspx?iid=20412703&pr=41.88
-
-  #### Afbeelding
+    ### Afbeelding 1928
     ...
 
+    #### Afbeelding 1930
+    http://ramapithblog.blogspot.com/2012/06/mouse-interrupted.html
+  
+    ### Afbeelding 1935 - Band Concert
+    https://www.jiangekj.xyz/ProductDetail.aspx?iid=20412703&pr=41.88
+  
+    #### Afbeelding
+    ...
+  </details>
+  
 3. ...
 
 </details>
