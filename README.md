@@ -191,6 +191,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 3. Evolutie van Mickey Mouse in video: https://www.youtube.com/watch?v=k5yLBt2EfLc
 4. Ronde image-slider: https://codemyui.com/arc-like-image-slider/
 5. Info over Mickeys film uit 2004: https://www-cornel1801-com.translate.goog/disney/Mickeys-Twice-Upon-a-Christmas-2004/movie-film.html?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=op,sc
-6. Bron...
+6. Fonts: https://www.onlinewebfonts.com/
+7. ...
 
 </details>
