@@ -33,10 +33,9 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - CSS
+  - Animeren
+  - JavaScript?
  
 </details>
 
@@ -49,18 +48,18 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Het gebruik van secties in de HTML.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Secties veranderd naar div'jes.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Het omdraaien van de H1-H6, niet in de juiste volgorde.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  H1-H6 in de juiste volgorde gezet en deze met CSS gestileerd.
 
 
 
