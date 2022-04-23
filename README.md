@@ -77,7 +77,7 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Bij mijn @font-face pakt hij het lettertype alleen als er een extra ')' achter de link staat. Hier komt een foutmelding van, maar als ik hem weghaal doet het lettertype het niet.
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
