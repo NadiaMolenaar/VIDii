@@ -97,6 +97,12 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
   
   #### oplossing:
   ...
+  
+  ### Bevinding 4:
+  Met de tab-toets worden links op de pagina niet geselecteerd; deze worden overgeslagen
+  
+  ### oplossing:
+  ...
 
 </details>
 
