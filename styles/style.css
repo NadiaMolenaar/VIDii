@@ -1,0 +1,134 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+html, body {
+  height:100%;
+  margin:1em;
+  background-color: #222;
+}
+
+button:not([disabled]) {
+  cursor: pointer;
+}
+
+/* jouw CSS vanaf hier */
+
+:root {
+  --color-mickey-red: rgb(238 44 36);
+  --color-mickey-yellow: rgb(249 191 25)
+}
+
+li{
+  list-style: none;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+/* Eigen benaming voor het font, met een link naar de website waar hij vandaan
+komt. */
+@font-face {
+  font-family: garamond;
+  src: url("//db.onlinewebfonts.com/t/2bf40ab72ea4897a3fd9b6e48b233a19.woff2");
+}
+
+h1 {
+  color: aliceblue;
+  font-family: "garamond", serif;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+/* Eigen benaming voor het font, met een link naar de website waar hij vandaan
+komt. */
+@font-face {
+  font-family: waltograph;
+  src: url("//db.onlinewebfonts.com/t/e6d70e2026165d37d01803d5b3f4489a.woff2");
+}
+
+/* Font-family krijgt hier de naam zoals benoemd in de @font-face. */
+h2 {
+  color: var(--color-mickey-red);
+  font-family: "waltograph";
+  font-size: 3em;
+  font-weight: 100;
+  letter-spacing: .05em;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-decoration: none;
+
+  /* Deze transitie wordt uitgevoerd zodra je over de link hovered. */
+  transition: color .3s;
+}
+
+/* ::after 'creert' content achter het element waarop het wordt toegepast. Hierdoor
+is het gemakkelijk een 'outline' te maken of een element te onderstrepen.*/
+a::after {
+  /* Content blijft leeg, omdat er geen (vervangende) tekst in de link komt te
+  staan. */
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: .125em;
+  background-color: aliceblue;
+
+  /* Origin zorgt ervoor dat de onderstreping van links komt. */
+  /* scaleX zorgt ervoor dat de onderstreping nog niet zichtbaar is. */
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+
+a:hover {
+  color: var(--color-mickey-yellow);
+}
+
+a:hover::after {
+  transform-origin: left;
+
+  /* scaleX zorgt ervoor dat de onderstreping de volledige breedte van het element
+  inneemt. */
+  transform: scaleX(1);
+}
+
+a:focus {
+  color: var(--color-mickey-yellow);
+}
+
+a:active {
+  color: var(--color-mickey-yellow);
+}
+
+a:visited {
+  color: var(--color-mickey-red);
+}
+
+img {
+  padding-top: 2em;
+}
+
+button {
+  cursor: url(/images/toppng.com-fingerpoint-mickeys-hand-1386x1624.png);
+}
