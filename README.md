@@ -200,8 +200,9 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
       
        Afbeelding 3:
        <img width="1680" alt="Schermafbeelding 2022-04-27 om 13 07 11" src="https://user-images.githubusercontent.com/58073536/165510623-04aaa7e8-a7de-4e38-8506-6a5fbc2521cb.png">
+    </p>
 
-
+  
 
   ### Dit ging goed/Heb ik geleerd: 
   Het ging in eerst instantie wel oke met het schrijven van de HTML en het eerste deel van de CSS. Daarna raakte ik in paniek, omdat ik niet wist waar ik moest beginnen met het wiel. Met behulp van Sanne is dit toch gelukt. 
