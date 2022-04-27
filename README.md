@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Nadia Molenaar
 
 #### Je startniveau:
-Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting rood, omdat er al veel lessen html/css in het verleden geweest zijn
+Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting rood, omdat er al veel lessen html/css in het verleden geweest zijn.
 
 
 
@@ -35,7 +35,7 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
   Aan deze technieken/punten wil ik werken:
   - CSS
   - Animeren
-  - JavaScript?
+  - JavaScript
  
 </details>
 
@@ -51,7 +51,7 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
   Het gebruik van secties in de HTML.
 
   #### oplossing:
-  Secties veranderd naar div'jes.
+  Secties veranderd naar div.
 
 
 
@@ -64,8 +64,23 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
 
 
   ### Bevinding 3:
-  ...
-
+  Afbeeldingen kunnen niet (juist) worden weergegeven.
+  
+  ### oplossing:
+  Afbeeldingen in buttons gezet.
+  
+  ### Bevinding 4:
+  Bij mijn @font-face pakt hij het lettertype alleen als er een extra ')' achter de link staat. Hier komt een foutmelding van, maar als ik hem weghaal doet het lettertype het niet.
+  
+  ### oplossing:
+  Een ander lettertype gedownload en de url aangepast in de CSS.
+  
+  ### Bevinding 5:
+  Omdat ik geen gebruik wil maken van classes heb ik in de CSS een selector gebruikt (div > h1), maar de selector doet niet wat ik wil.
+  
+  ### oplossing:
+  Toch gebruik gemaakt van een class & ID, omdat dit ook gemakkelijker is bij het gebruik van JS.
+  
 </details>
 
 
@@ -77,32 +92,40 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Bij mijn @font-face pakt hij het lettertype alleen als er een extra ')' achter de link staat. Hier komt een foutmelding van, maar als ik hem weghaal doet het lettertype het niet.
+  Complete paniek over het wiel dat ik wilde laten draaien...
 
   #### oplossing:
-  ...
-
-
+  Samen met Sanne code geschreven in de CSS, waardoor een awesome wiel is ontstaan. Van de afbeeldingen buttons gemaakt, die ik daarna 'gevuld' heb met de juiste afbeelding.
 
   ### Bevinding 2:
-  Omdat ik geen gebruik wil maken van classes heb ik in de CSS een selector gebruikt (div > h1), maar de selector doet niet wat ik wil.
+  Het wiel moest bij klikken op een button stoppen met draaien, zodra er dan weer geklikt werd moet hij verder draaien. Helaas dit gebeurde (nog) niet.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  In JS heb ik een functie gemaakt waarbij het wiel gestopt wordt. In CSS heb ik er toen een animatie opgezet dat hij gepauzeerd wordt, zodat hij daarna weer verder kan draaien.
 
-
-
+  
+  
   ### Bevinding 3:
   Bij het runnen in de browser krijg ik 4 fouten: hij kan de lettertypes niet downloaden van de website waar het font afkomstig van is.
   
   #### oplossing:
-  ...
+  Het pad naar de lettertypes en de url aangepast in de CSS.
+  
+  
   
   ### Bevinding 4:
   Met de tab-toets worden links op de pagina niet geselecteerd; deze worden overgeslagen
   
   ### oplossing:
-  ...
+  Helaas niet gevonden...
+  
+  
+  
+  ### Bevinding 5:
+  Geen gebruik van id's en classes.
+  
+  ### oplossing:
+  Bij de div, p en a toch een class en id toegevoegd om in JS de elementen aan te kunnen spreken.
 
 </details>
 
@@ -200,7 +223,11 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 3. Evolutie van Mickey Mouse in video: https://www.youtube.com/watch?v=k5yLBt2EfLc
 4. Ronde image-slider: https://codemyui.com/arc-like-image-slider/
 5. Info over Mickeys film uit 2004: https://www-cornel1801-com.translate.goog/disney/Mickeys-Twice-Upon-a-Christmas-2004/movie-film.html?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=op,sc
-6. Fonts: https://www.onlinewebfonts.com/
+6. Fonts:
+  <p>
+    https://www.fontsquirrel.com/fonts/roboto
+    https://www.dafont.com/mickey.font
+  </p>
 7. ...
 
 </details>
