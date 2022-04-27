@@ -5,69 +5,278 @@
 
 html, body {
   height:100%;
-  margin:1em;
-  background-color: #222;
-}
-
-button:not([disabled]) {
-  cursor: pointer;
+  margin:0;
+  background: linear-gradient(#ee2b24, #f9bd19);
 }
 
 /* jouw CSS vanaf hier */
 
 :root {
   --color-mickey-red: rgb(238 44 36);
-  --color-mickey-yellow: rgb(249 191 25);
+  --color-mickey-darkgrey: rgb(29 29 29);
 }
 
-li{
-  list-style: none;
+/* Eigen benaming voor het font, met een link naar de website waar hij vandaan
+komt. */
+@font-face {
+  font-family: 'disney';
+  src: url('../fonts/disney-webfont.woff2') format('woff2'),
+       url('../fonts/disney-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
 }
 
-div {
+@font-face {
+  font-family: 'mickey';
+  src: url('../fonts/mickey-webfont.woff') format('woff'),
+       url('../fonts/mickey-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/Roboto-Light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ol{
+   /* vmin gebruikt de verhouding van de kleinste zijde. Dat wil zeggen, als de hoogte
+  van het browservenster kleiner is dan de breedte, schaalt hij mee. De - zorgt dat het
+  wiel half zichtbaar is. Door een calculatie te maken met de overgebleven waardes wordt
+  hij uitgelijnd in het midden van de pagina. */
+  position:fixed;
+  top:-45vmin;
+  left:calc((100vw - 90vmin) / 2);
+    
+  margin:0;
+  padding:0;
+  list-style:none;
+    
+  width:90vmin;
+  /* Zorgt dat het een 'blok' wordt met gelijke waardes.*/
+  aspect-ratio:1/1;
+    
+  background-color:red;
+  border-radius:50%;
+    
+  background-image:repeating-conic-gradient(
+    from 22.5deg,
+    #1d1d1d 0deg, 
+    #3f3f3f 45deg);
+    
+  -webkit-mask:radial-gradient(closest-side, transparent 40%, red 40%);
+  mask:radial-gradient(closest-side, transparent 40%, red 40%);
+   
+  /* Linear zorgt dat er op gelijke snelheid gedraaid wordt. */
+  animation-name: draaien;
+  animation-duration: 120s;
+  animation-iteration-count: 5;
+  animation-timing-function: linear;
+    
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+@keyframes draaien {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+ol.stoppen{
+  animation-play-state: paused;
+}
+
+li {
+	position: absolute;
+	transform:translatey(31.5vmin);
+}
+
+ol li:nth-of-type(1) img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(1) img:hover {
+  filter: grayscale(0%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(2) img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(2) img:hover {
+  filter: grayscale(0%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(3) img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(3) img:hover {
+  filter: grayscale(0%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(4) img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(4) img:hover {
+  filter: grayscale(0%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(5) img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(5) img:hover {
+  filter: grayscale(0%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(6) img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(6) img:hover {
+  filter: grayscale(0%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(7) img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(7) img:hover {
+  filter: grayscale(0%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(8) img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .75s;
+}
+
+ol li:nth-of-type(8) img:hover {
+  filter: grayscale(0%);
+  transition: .75s;
+}
+
+li:nth-of-type(1) {
+	transform:rotate(0deg) translatey(31.5vmin);
+}
+
+li:nth-of-type(2) {
+	transform:rotate(45deg) translatey(31.5vmin);
+}
+
+li:nth-of-type(3) {
+	transform:rotate(90deg) translatey(31.5vmin);
+}
+
+li:nth-of-type(4) {
+	transform:rotate(135deg) translatey(31.5vmin);
+}
+
+li:nth-of-type(5) {
+	transform:rotate(180deg) translatey(31.5vmin);
+}
+
+li:nth-of-type(6) {
+	transform:rotate(225deg) translatey(31.5vmin);
+}
+
+li:nth-of-type(7) {
+	transform:rotate(270deg) translatey(31.5vmin);
+}
+
+li:nth-of-type(8) {
+	transform:rotate(315deg) translatey(31.5vmin);
+}
+
+li button {
+	height: 20vmin;
+	aspect-ratio: 6/8;
+  border: none;
+  background-color: transparent;
+  cursor: url(../cursor/mickeygradient.png), pointer;
+}
+
+#p, #a {
+  opacity: 0;
+  transition: .25s;
+}
+
+#p.show, #a.show {
+  opacity: 1;
+}
+
+.infoContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
 
-/* Eigen benaming voor het font, met een link naar de website waar hij vandaan
-komt. */
-@font-face {
-  font-family: garamond;
-  src: url("//db.onlinewebfonts.com/t/2bf40ab72ea4897a3fd9b6e48b233a19.woff2");
+  width: 100%;
+  position: absolute;
+  margin-top: 35em;
 }
 
 h1 {
   color: aliceblue;
-  font-family: "garamond", serif;
-  font-size: 1.5em;
-  margin: 0;
+  margin: 2em 0 .25em 0;
   padding: 0;
-}
 
-/* Eigen benaming voor het font, met een link naar de website waar hij vandaan
-komt. */
-@font-face {
-  font-family: waltograph;
-  src: url("//db.onlinewebfonts.com/t/e6d70e2026165d37d01803d5b3f4489a.woff2");
+  font-family: "mickey", fantasy;
+  font-size: 2em;
 }
 
 /* Font-family krijgt hier de naam zoals benoemd in de @font-face. */
 h2 {
   color: var(--color-mickey-red);
-  font-family: "waltograph";
-  font-size: 3em;
+  margin: 0 0 .25em 0;
+  padding: 0;
+
+  font-family: "disney", fantasy;
+  font-size: 5em;
   font-weight: 100;
   letter-spacing: .05em;
-  margin: 0;
-  padding: 0;
 }
 
 p {
   color: aliceblue;
-  margin: 0;
+  margin: 0 0 1.5em 0;
   padding: 0;
+
+  align-items: center;
+  font-family: "roboto", sans-serif;
+  font-size: 1.25em;
+  font-weight: 500;
+  letter-spacing: .05em;
+  max-width: 45em;
 }
 
 a {
@@ -75,7 +284,11 @@ a {
   margin: 0;
   padding: 0;
   position: relative;
+  cursor: url(../cursor/mickeygradient.png), pointer;
+
   text-decoration: none;
+  font-family: "mickey", sans-serif;
+  font-size: 2em;
 
   /* Deze transitie wordt uitgevoerd zodra je over de link hovered. */
   transition: color .3s;
@@ -92,17 +305,18 @@ a::after {
   bottom: 0;
   width: 100%;
   height: .125em;
-  background-color: var(--color-mickey-yellow);
+
+  background-color: var(--color-mickey-red);
 
   /* Origin zorgt ervoor dat de onderstreping van links komt. */
-  /* scaleX zorgt ervoor dat de onderstreping nog niet zichtbaar is. */
+  /* scaleX zorgt ervoor dat de onderstreping nog niet zichtbaar is.*/
   transform-origin: right;
   transform: scaleX(0);
   transition: transform .5s;
 }
 
 a:hover {
-  color: var(--color-mickey-yellow);
+  color: var(--color-mickey-red);
 }
 
 a:hover::after {
@@ -111,28 +325,17 @@ a:hover::after {
   /* scaleX zorgt ervoor dat de onderstreping de volledige breedte van het element
   inneemt. */
   transform: scaleX(1);
-}
+} 
 
 a:focus {
-  color: var(--color-mickey-yellow);
-}
-
-a:active {
-  color: var(--color-mickey-yellow);
-}
-
-a:visited {
   color: var(--color-mickey-red);
 }
 
-img {
-  padding-top: 2em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
+a:active {
+  color: var(--color-mickey-darkgrey);
 }
 
-button {
-  cursor: url(/images/toppng.com-fingerpoint-mickeys-hand-1386x1624.png);
+a:visited {
+  color: var(--color-mickey-darkgrey);
 }
+
