@@ -225,7 +225,10 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 5. Info over Mickeys film uit 2004: https://www-cornel1801-com.translate.goog/disney/Mickeys-Twice-Upon-a-Christmas-2004/movie-film.html?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=op,sc
 6. Fonts:
   <p>
+    Roboto:
     https://www.fontsquirrel.com/fonts/roboto
+    
+    Mickey:
     https://www.dafont.com/mickey.font
   </p>
 7. ...
