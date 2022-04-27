@@ -141,20 +141,44 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
 
   #### oplossing:
   Gespiekt op CodePen hoe anderen het deden, erachter gekomen dat het super simpel was en toen onderstaande code gebruikt om het toe te passen:
+  
   <img width="250" alt="Schermafbeelding 2022-04-27 om 13 29 22" src="https://user-images.githubusercontent.com/58073536/165508684-fd2831fb-9dd1-411d-bb69-c1aaba0e9504.png">
 
   
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Op de buttons een andere cursor toegepast, maar de afbeelding was veel te groot.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  De afbeelding in adobe illustrator gemaakt met een verloopje, opgeslagen en deze in voorvertoning gewijzigd naar 32x32px. Nu past hij wel als cursor, maar is hij alsnog ietwat groot. 
+  
+<img width="400" alt="Schermafbeelding 2022-04-27 om 13 32 31" src="https://user-images.githubusercontent.com/58073536/165510480-1c67cf30-0dc5-4895-ac66-8d397e766830.png">
+  
 
 
   ### Bevinding 3:
-  ...
+  Gebruik gemaakt van custom properties.
+  
+  ### oplossing:
+  Nog nooit eerder gedaan, maar het werkte vrij soepel. De custom properties worden onder andere gebruikt voor de verschillende states op linkjes.
+  
+  
+  
+  ### Bevinding 4
+  Paragrafen en links bleven in beeld bij het klikken op de button, terwijl deze weer moesten verdwijnen. 
+  
+  ### oplossing:
+  Met JS een functie gemaakt waarbij deze zichtbaar worden en weer verdwijnen.
+  
+  
+  
+  ### Bevinding 5
+  Last minute wilde ik nog het jaartal toevoegen en laten verdwijnen met JS, zoals bij de paragrafen en links.
+  
+  
+  
+  ### oplossing:
+  Het is niet gelukt dit op te lossen zoals ik wilde, maar ik heb nu het jaartal in de paragraaf gezet, zodat deze evengoed zichtbaar/leesbaar is. In JS wil ik dit nog wel laten werken. 
 
 </details>
 
@@ -167,19 +191,31 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+    <p>
+      Afbeelding 1:
+      <img width="1680" alt="Schermafbeelding 2022-04-27 om 13 07 17" src="https://user-images.githubusercontent.com/58073536/165510632-bbe06851-6a3f-48e2-8425-b319e8c5b639.png">
+      
+      Afbeelding 2:
+      <img width="1680" alt="Schermafbeelding 2022-04-27 om 13 07 03" src="https://user-images.githubusercontent.com/58073536/165510614-601c6cae-e61d-4493-8aca-11e0333471ab.png">
+      
+       Afbeelding 3:
+       <img width="1680" alt="Schermafbeelding 2022-04-27 om 13 07 11" src="https://user-images.githubusercontent.com/58073536/165510623-04aaa7e8-a7de-4e38-8506-6a5fbc2521cb.png">
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Het ging in eerst instantie wel oke met het schrijven van de HTML en het eerste deel van de CSS. Daarna raakte ik in paniek, omdat ik niet wist waar ik moest beginnen met het wiel. Met behulp van Sanne is dit toch gelukt. 
+      
+  Het is me gelukt om een begrijpelijk JS te maken met werkende functies, die ik zelf begrijp. Ik heb geleerd hoe JS werkt en het is me duidelijker geworden hoe bepaalde functies werken die ik eerst niet begreep en erg lastig vond. Naast mijn eigen werk kon ik het ook uitleggen aan Job, wat voor mij betekent dat ik echt progressie heb gemaakt met JS. Iets wat ik graag wilde leren deze periode!
+      
+<img width="655" alt="Schermafbeelding 2022-04-27 om 13 48 02" src="https://user-images.githubusercontent.com/58073536/165511884-afd26778-8b66-4b9c-a2c6-b91e69e1127f.png">
+      
+<img width="485" alt="Schermafbeelding 2022-04-27 om 13 48 50" src="https://user-images.githubusercontent.com/58073536/165511889-c940bd54-4e7f-4f6d-b5f4-5bff0546a60d.png">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Het is lastig om te weten wanneer je met de tab-toets alle elementen kunt gebruiken. Het is mij helaas niet gelukt om ervoor te zorgen dat de links in de paragrafen te bereiken zijn met de tab-toets. Daar baal ik van, maar ik wil dit nog wel leren!
 </details>
 
 
