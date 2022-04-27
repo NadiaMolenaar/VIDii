@@ -191,7 +191,6 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-    <p>
       Afbeelding 1:
       <img width="1680" alt="Schermafbeelding 2022-04-27 om 13 07 17" src="https://user-images.githubusercontent.com/58073536/165510632-bbe06851-6a3f-48e2-8425-b319e8c5b639.png">
       
@@ -200,7 +199,6 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
       
        Afbeelding 3:
        <img width="1680" alt="Schermafbeelding 2022-04-27 om 13 07 11" src="https://user-images.githubusercontent.com/58073536/165510623-04aaa7e8-a7de-4e38-8506-6a5fbc2521cb.png">
-    </p>
 
   
 
