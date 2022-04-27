@@ -267,6 +267,5 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
        Mickey:
        https://www.dafont.com/mickey.font
      </p>
-7. ...
 
 </details>
