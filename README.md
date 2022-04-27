@@ -137,12 +137,13 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Hoveren over de buttons waarbij ze van greyscale naar kleur gaan.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Gespiekt op CodePen hoe anderen het deden, erachter gekomen dat het super simpel was en toen onderstaande code gebruikt om het toe te passen:
+  <img width="250" alt="Schermafbeelding 2022-04-27 om 13 29 22" src="https://user-images.githubusercontent.com/58073536/165508684-fd2831fb-9dd1-411d-bb69-c1aaba0e9504.png">
 
-
+  
 
   ### Bevinding 2:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
@@ -224,13 +225,13 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 4. Ronde image-slider: https://codemyui.com/arc-like-image-slider/
 5. Info over Mickeys film uit 2004: https://www-cornel1801-com.translate.goog/disney/Mickeys-Twice-Upon-a-Christmas-2004/movie-film.html?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=op,sc
 6. Fonts:
-  <p>
-    Roboto:
-    https://www.fontsquirrel.com/fonts/roboto
-    
-    Mickey:
-    https://www.dafont.com/mickey.font
-  </p>
+     <p>
+       Roboto:
+       https://www.fontsquirrel.com/fonts/roboto
+       
+       Mickey:
+       https://www.dafont.com/mickey.font
+     </p>
 7. ...
 
 </details>
