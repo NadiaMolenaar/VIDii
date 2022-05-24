@@ -197,6 +197,7 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
   
   De schijf met buttons duidt ook aan dat het iets 'onenidigs' is, daarnaast is Mickey zelf een karakter dat ook door de jaren heen vernieuwd wordt en eigenlijk niet meer is weg te denken uit de disney wereld. 
 
+  Verder kreeg ik nog de feedback dat mijn CSS code iets netter kan, daarom heb ik alle kleuren in de :root gezet en onnodige CSS elementen verwijderd. Ook heb ik de ID's van de P en A elementen verwijderd en in JS deze elementen aangeroepen met een andere selector. 
 </details>
 
 
@@ -229,9 +230,20 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
 <img width="485" alt="Schermafbeelding 2022-04-27 om 13 48 50" src="https://user-images.githubusercontent.com/58073536/165511889-c940bd54-4e7f-4f6d-b5f4-5bff0546a60d.png">
 
   
+  ### Nieuw
+  Het was eigenlijk best simpel om de P en A elementen met een andere selector aan te roepen. Ik heb deze simpelweg gewijzigd van een getElementById naar een querySelector, waardoor hij de elemten uit de html zelf haalt en niet op zoek gaat naar een class die matcht. 
+  
+  <img width="655" alt="" src="">
+  
 
   ### Dit was lastig/Is niet gelukt:
   Het is lastig om te weten wanneer je met de tab-toets alle elementen kunt gebruiken. Het is mij helaas niet gelukt om ervoor te zorgen dat de links in de paragrafen te bereiken zijn met de tab-toets. Daar baal ik van, maar ik wil dit nog wel leren!
+  
+  
+  ### Nieuw
+  Het is helaas niet gelukt om met een if/else statement te zorgen dat er meer interactie komt met de buttons op de schijf. Na meerdere pogingen met verschillende opties vind ik het jammer dat het niet werkt. Middels onderstaande code lukte het wel om in ieder geval 1 element de schijf te doen stoppen, waarna je kan klikken op een andere button. Dan verschijnt er wel een nieuwe tekst die hoort bij de button waarop geklikt is, maar zodra ik dit wilde toevoegen aan de andere functies ging hij kapot. 
+  
+  <img width="655" alt="" src="">
 </details>
 
 
