@@ -25,11 +25,13 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
 # Je plan
 
 <details open>
-  <summary>Code vind ik altijd even wennen, dus het zal voornamelijk lastig worden een overlay te maken en/of afbeeldingen op de juiste wijze weer te geven in het silhouet.</summary>
+  <summary>Code vind ik altijd even wennen, dus het zal voornamelijk lastig worden een overlay te maken en/of afbeeldingen op de juiste wijze weer te geven in het silhouet.
+  
+  Bij nader inzien heb ik toch gekozen voor totaal iets anders: een dream viewer (ook wel bekend als viewmaster).</summary>
 
   ### De eerste versie/schets:
   <img src="readme-images/IMG_5518.jpg" width="375px" alt="eerste schets">
-
+  <img src="readme-images/viewmaster.jpg" width="375px" alt="viewmaster">
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
@@ -179,6 +181,21 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
   
   ### oplossing:
   Het is niet gelukt dit op te lossen zoals ik wilde, maar ik heb nu het jaartal in de paragraaf gezet, zodat deze evengoed zichtbaar/leesbaar is. In JS wil ik dit nog wel laten werken. 
+
+</details>
+
+
+
+
+## Feedback gedurende beoordeling
+
+
+<details>
+  <summary>Aanpassingen</summary>
+  
+  Gedurende de feedback die ik kreeg waren er een aantal punten waar ik nog aan kon werken. Mijn concept was onduidelijk en eigenlijk niet zo goed passend bij Mickey. Uiteindelijk heb ik ervoor gekozen het concept om te zetten naar een dreamviewer effect; een soort camera waar schijfjes in gaan met foto's. Deze camera is rond dezelfde tijd op de markt gebracht als dat Mickey werd gemaakt. Mickey heeft vanaf het begin van zijn tijd al enorm veel ronde elementen, zijn neus, oren, ogen en zelfs zijn schoen/voeten zijn in ronde vormen. Deze rondingen zijn door de jaren heen eigenlijk niet veranderd. De Mickey zoals we hem nu kennen is ook voorzien van veel rondingen. 
+  
+  De schijf met buttons duidt ook aan dat het iets 'onenidigs' is, daarnaast is Mickey zelf een karakter dat ook door de jaren heen vernieuwd wordt en eigenlijk niet meer is weg te denken uit de disney wereld. 
 
 </details>
 
