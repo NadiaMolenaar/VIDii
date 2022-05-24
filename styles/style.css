@@ -1,21 +1,3 @@
-/* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
-}
-
-html, body {
-  height:100%;
-  margin:0;
-  background: linear-gradient(#ee2b24, #f9bd19);
-}
-
-/* jouw CSS vanaf hier */
-
-:root {
-  --color-mickey-red: rgb(238 44 36);
-  --color-mickey-darkgrey: rgb(29 29 29);
-}
-
 /* Eigen benaming voor het font, met een link naar de website waar hij vandaan
 komt. */
 @font-face {
@@ -40,6 +22,36 @@ komt. */
   font-style: normal;
 }
 
+
+
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+
+/* custom properties  */
+:root {
+  --color-mickey-red: rgb(238 44 36);
+  --color-mickey-darkgrey: rgb(29 29 29);
+  --gradient-body:linear-gradient(#ee2b24, #f9bd19);
+  --bg-color: red;
+  --text-color: aliceblue;
+}
+
+
+
+/* algemene styling */
+html, body {
+  height:100%;
+  margin:0;
+  background: var(--gradient-body);
+}
+
+
+
+/* het wiel */
 ol{
    /* vmin gebruikt de verhouding van de kleinste zijde. Dat wil zeggen, als de hoogte
   van het browservenster kleiner is dan de breedte, schaalt hij mee. De - zorgt dat het
@@ -57,7 +69,7 @@ ol{
   /* Zorgt dat het een 'blok' wordt met gelijke waardes.*/
   aspect-ratio:1/1;
     
-  background-color:red;
+  background-color: var(--bg-color);
   border-radius:50%;
     
   background-image:repeating-conic-gradient(
@@ -65,8 +77,8 @@ ol{
     #1d1d1d 0deg, 
     #3f3f3f 45deg);
     
-  -webkit-mask:radial-gradient(closest-side, transparent 40%, red 40%);
-  mask:radial-gradient(closest-side, transparent 40%, red 40%);
+  -webkit-mask:radial-gradient(closest-side, transparent 40%, var(--bg-color) 40%);
+  mask:radial-gradient(closest-side, transparent 40%, var(--bg-color) 40%);
    
   /* Linear zorgt dat er op gelijke snelheid gedraaid wordt. */
   animation-name: draaien;
@@ -97,92 +109,15 @@ li {
 	transform:translatey(31.5vmin);
 }
 
-ol li:nth-of-type(1) img {
+ol li img {
   width: 100%;
   filter: grayscale(100%);
   transition: .75s;
 }
 
-ol li:nth-of-type(1) img:hover {
+ol li img:hover {
   filter: grayscale(0%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(2) img {
-  width: 100%;
-  filter: grayscale(100%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(2) img:hover {
-  filter: grayscale(0%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(3) img {
-  width: 100%;
-  filter: grayscale(100%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(3) img:hover {
-  filter: grayscale(0%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(4) img {
-  width: 100%;
-  filter: grayscale(100%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(4) img:hover {
-  filter: grayscale(0%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(5) img {
-  width: 100%;
-  filter: grayscale(100%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(5) img:hover {
-  filter: grayscale(0%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(6) img {
-  width: 100%;
-  filter: grayscale(100%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(6) img:hover {
-  filter: grayscale(0%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(7) img {
-  width: 100%;
-  filter: grayscale(100%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(7) img:hover {
-  filter: grayscale(0%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(8) img {
-  width: 100%;
-  filter: grayscale(100%);
-  transition: .75s;
-}
-
-ol li:nth-of-type(8) img:hover {
-  filter: grayscale(0%);
-  transition: .75s;
+  /* transition: .75s; */
 }
 
 li:nth-of-type(1) {
@@ -225,12 +160,12 @@ li button {
   cursor: url(../cursor/mickeygradient.png), pointer;
 }
 
-#p, #a {
+p, a {
   opacity: 0;
   transition: .25s;
 }
 
-#p.show, #a.show {
+p.show, a.show {
   opacity: 1;
 }
 
@@ -246,7 +181,7 @@ li button {
 }
 
 h1 {
-  color: aliceblue;
+  color: var(--text-color);
   margin: 2em 0 .25em 0;
   padding: 0;
 
@@ -267,7 +202,7 @@ h2 {
 }
 
 p {
-  color: aliceblue;
+  color: var(--text-color);
   margin: 0 0 1.5em 0;
   padding: 0;
 
@@ -280,7 +215,7 @@ p {
 }
 
 a {
-  color: aliceblue;
+  color: var(--text-color);
   margin: 0;
   padding: 0;
   position: relative;
@@ -294,38 +229,11 @@ a {
   transition: color .3s;
 }
 
-/* ::after 'creert' content achter het element waarop het wordt toegepast. Hierdoor
-is het gemakkelijk een 'outline' te maken of een element te onderstrepen.*/
-a::after {
-  /* Content blijft leeg, omdat er geen (vervangende) tekst in de link komt te
-  staan. */
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: .125em;
-
-  background-color: var(--color-mickey-red);
-
-  /* Origin zorgt ervoor dat de onderstreping van links komt. */
-  /* scaleX zorgt ervoor dat de onderstreping nog niet zichtbaar is.*/
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform .5s;
-}
+/*  */
 
 a:hover {
   color: var(--color-mickey-red);
 }
-
-a:hover::after {
-  transform-origin: left;
-
-  /* scaleX zorgt ervoor dat de onderstreping de volledige breedte van het element
-  inneemt. */
-  transform: scaleX(1);
-} 
 
 a:focus {
   color: var(--color-mickey-red);

@@ -25,16 +25,18 @@ jaar04.addEventListener("click", showInfo7);
 var jaar18 = document.querySelector("li:nth-of-type(8) button");
 jaar18.addEventListener("click", showInfo8);
 
-// var tijd = document.getElementById("tijd");
-var paragraph = document.getElementById("p");
-var infoLink = document.getElementById("a");
+// var tijd = document.querySelector("tijd");
 
+// document.getElementById vervangen door document.querySelector om
+// de P tag en de A tag te selecteren in de html.
+var paragraph = document.querySelector("p");
+var infoLink = document.querySelector("a");
 
 function showInfo1() {
-    // document.getElementById("tijd").innerHTML=tijdInJaar[0];
-    document.getElementById("p").innerHTML=backgroundInfo[0];
-    document.getElementById("a").innerHTML=naamVideo[0]
-    document.getElementById("a").setAttribute("href", link[0]);
+    // document.querySelector("tijd").innerHTML=tijdInJaar[0];
+    document.querySelector("p").innerHTML=backgroundInfo[0];
+    document.querySelector("a").innerHTML=naamVideo[0]
+    document.querySelector("a").setAttribute("href", link[0]);
     
     wiel.classList.toggle("stoppen");
     // tijd.classList.toggle("show");
@@ -44,36 +46,53 @@ function showInfo1() {
 };
 
 function showInfo2() {
-    // document.getElementById("tijd").innerHTML=tijdInJaar[1];
-    document.getElementById("p").innerHTML=backgroundInfo[7];
-    document.getElementById("a").innerHTML=naamVideo[0]
-    document.getElementById("a").setAttribute("href", link[1]);
+    // document.querySelector("tijd").innerHTML=tijdInJaar[1];
+    document.querySelector("p").innerHTML=backgroundInfo[7];
+    document.querySelector("a").innerHTML=naamVideo[0]
+    document.querySelector("a").setAttribute("href", link[1]);
 
     wiel.classList.toggle("stoppen");
     // tijd.classList.toggle("show");
     paragraph.classList.toggle("show");
     infoLink.classList.toggle("show");
+
+    // jaar18.classList.add("gestopt");
+    // if (jaar18.classList.contains("gestopt")){
+    //     wiel.classList.toggle("stoppen");
+    //     console.log("test");
+    //     jaar18.classList.remove("gestopt");
+    // }
+
+
     console.log("Howdy!");
 };
 
 function showInfo3() {
-    // document.getElementById("tijd").innerHTML=tijdInJaar[2];
-    document.getElementById("p").innerHTML=backgroundInfo[6];
-    document.getElementById("a").innerHTML=naamVideo[0]
-    document.getElementById("a").setAttribute("href", link[2]);
+    // document.querySelector("tijd").innerHTML=tijdInJaar[2];
+    document.querySelector("p").innerHTML=backgroundInfo[6];
+    document.querySelector("a").innerHTML=naamVideo[0]
+    document.querySelector("a").setAttribute("href", link[2]);
 
     wiel.classList.toggle("stoppen");
     // tijd.classList.toggle("show");
     paragraph.classList.toggle("show");
     infoLink.classList.toggle("show");
+
+    // jaar04.classList.add("gestopt");
+    // if (jaar04.classList.contains("gestopt")){
+    //     wiel.classList.toggle("stoppen");
+    //     console.log("test");
+    //     jaar04.classList.remove("gestopt");
+    // }
+
     console.log("Howdy!");
 };
 
 function showInfo4() {
-    // document.getElementById("tijd").innerHTML=tijdInJaar[3];
-    document.getElementById("p").innerHTML=backgroundInfo[5];
-    document.getElementById("a").innerHTML=naamVideo[0]
-    document.getElementById("a").setAttribute("href", link[3]);
+    // document.querySelector("tijd").innerHTML=tijdInJaar[3];
+    document.querySelector("p").innerHTML=backgroundInfo[5];
+    document.querySelector("a").innerHTML=naamVideo[0]
+    document.querySelector("a").setAttribute("href", link[3]);
 
     wiel.classList.toggle("stoppen");
     // tijd.classList.toggle("show");
@@ -83,10 +102,10 @@ function showInfo4() {
 };
 
 function showInfo5() {
-    // document.getElementById("tijd").innerHTML=tijdInJaar[4];
-    document.getElementById("p").innerHTML=backgroundInfo[4];
-    document.getElementById("a").innerHTML=naamVideo[0]
-    document.getElementById("a").setAttribute("href", link[4]);
+    // document.querySelector("tijd").innerHTML=tijdInJaar[4];
+    document.querySelector("p").innerHTML=backgroundInfo[4];
+    document.querySelector("a").innerHTML=naamVideo[0]
+    document.querySelector("a").setAttribute("href", link[4]);
 
     wiel.classList.toggle("stoppen");
     // tijd.classList.toggle("show");
@@ -96,10 +115,10 @@ function showInfo5() {
 };
 
 function showInfo6() {
-    // document.getElementById("tijd").innerHTML=tijdInJaar[5];
-    document.getElementById("p").innerHTML=backgroundInfo[3];
-    document.getElementById("a").innerHTML=naamVideo[1]
-    document.getElementById("a").setAttribute("href", link[5]);
+    // document.querySelector("tijd").innerHTML=tijdInJaar[5];
+    document.querySelector("p").innerHTML=backgroundInfo[3];
+    document.querySelector("a").innerHTML=naamVideo[1]
+    document.querySelector("a").setAttribute("href", link[5]);
 
     wiel.classList.toggle("stoppen");
     // tijd.classList.toggle("show");
@@ -109,10 +128,10 @@ function showInfo6() {
 };
 
 function showInfo7() {
-    // document.getElementById("tijd").innerHTML=tijdInJaar[6];
-    document.getElementById("p").innerHTML=backgroundInfo[2];
-    document.getElementById("a").innerHTML=naamVideo[2]
-    document.getElementById("a").setAttribute("href", link[6]);
+    // document.querySelector("tijd").innerHTML=tijdInJaar[6];
+    document.querySelector("p").innerHTML=backgroundInfo[2];
+    document.querySelector("a").innerHTML=naamVideo[2]
+    document.querySelector("a").setAttribute("href", link[6]);
 
     wiel.classList.toggle("stoppen");
     // tijd.classList.toggle("show");
@@ -122,15 +141,16 @@ function showInfo7() {
 };
 
 function showInfo8() {
-    // document.getElementById("tijd").innerHTML=tijdInJaar[7];
-    document.getElementById("p").innerHTML=backgroundInfo[1];
-    document.getElementById("a").innerHTML=naamVideo[1]
-    document.getElementById("a").setAttribute("href", link[7]);
+    // document.querySelector("tijd").innerHTML=tijdInJaar[7];
+    document.querySelector("p").innerHTML=backgroundInfo[1];
+    document.querySelector("a").innerHTML=naamVideo[1]
+    document.querySelector("a").setAttribute("href", link[7]);
 
     wiel.classList.toggle("stoppen");
     // tijd.classList.toggle("show");
     paragraph.classList.toggle("show");
     infoLink.classList.toggle("show");
+
     console.log("Howdy!");
 };
 
