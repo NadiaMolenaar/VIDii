@@ -233,7 +233,7 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
   ### Nieuw
   Het was eigenlijk best simpel om de P en A elementen met een andere selector aan te roepen. Ik heb deze simpelweg gewijzigd van een getElementById naar een querySelector, waardoor hij de elemten uit de html zelf haalt en niet op zoek gaat naar een class die matcht. 
   
-  <img width="655" alt="" src="">
+  <img width="655" alt="" src="readme-images/Schermafbeelding 2022-05-24 om 17.29.52.png">
   
 
   ### Dit was lastig/Is niet gelukt:
@@ -243,7 +243,7 @@ Mijn startniveau is: voornamelijk blauw, misschien een klein beetje richting roo
   ### Nieuw
   Het is helaas niet gelukt om met een if/else statement te zorgen dat er meer interactie komt met de buttons op de schijf. Na meerdere pogingen met verschillende opties vind ik het jammer dat het niet werkt. Middels onderstaande code lukte het wel om in ieder geval 1 element de schijf te doen stoppen, waarna je kan klikken op een andere button. Dan verschijnt er wel een nieuwe tekst die hoort bij de button waarop geklikt is, maar zodra ik dit wilde toevoegen aan de andere functies ging hij kapot. 
   
-  <img width="655" alt="" src="">
+  <img width="655" alt="" src="Schermafbeelding 2022-05-24 om 17.35.50.png">
 </details>
 
 
